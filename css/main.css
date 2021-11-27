@@ -1,0 +1,91 @@
+
+*{margin:0;padding:0;}
+
+body{background: silver;
+	font-family: arial;
+	font-size: 15px;}
+
+header{background: url(../img/banner.png) no-repeat top;
+	height: 200px;margin: 0 auto;
+	margin-top: 5px;margin-bottom: 5px;
+	display: flex;width: 98%;}
+
+.wlcm{ background:grey;display: flex;
+  	text-decoration: none;color: white;
+  	overflow: auto;}
+
+.wlcm h1{
+	margin:0 auto;}
+
+.utm{align-items: flex-end;margin:0 25px 0;}
+
+.gast{background: rgba(186, 150, 1, .5);
+	display: flex;align-items: center;
+	justify-content: center;
+  	transition: background 0.4s;color: white;}
+.gast a{text-decoration: none;}
+
+.ddn{background: rgba(219, 36, 2, .5);
+	display: flex;align-items: center;
+  	justify-content: center;text-decoration: none;
+  	transition: background 0.4s;color: white;}
+.ddn a{text-decoration: none;}
+
+.mant{background: rgba(0, 28, 125, .5);
+	display: flex;align-items: center;
+	justify-content: center;text-decoration: none;
+	transition: background 0.4s;color: white;}
+.mant a{text-decoration: none;}
+
+.tics{background: rgba(107, 182, 1, .3);
+	display: flex;align-items: center;
+	justify-content: center;text-decoration: none;
+	transition: background 0.4s;}
+
+article a{text-decoration: none; color: white;}
+
+.gast:hover {background: #4D8AB3;}
+.ddn:hover {background: #4D8AB3;}
+.mant:hover {background: #4D8AB3;}
+.tics:hover {background: #4D8AB3;}
+.rell:hover{background: #4D8AB3;}
+.out:hover{background: red;}
+
+#botones input[type="submit"] {
+  border: none; outline: none;
+  height: 40px;font-size: 10px;
+  background: #213B4D;color: #fff;
+  border-radius: 20px;
+  width: 70px;margin:5px 20px;}
+
+#botones input[type="submit"]:hover{
+  cursor: pointer;background: #162733;color: #fff;}
+
+aside li{padding: 8px 0;list-style: none;}
+
+form{border-radius: 1px;width: 400px;}
+
+.act{background: orange;color: black;}
+.rell{background: orange;}
+.usr{background: orange;}
+
+.txt{vertical-align: text-bottom;}
+
+.logo{padding: 35px}
+
+footer{
+	background-color: black;
+	margin: 0 auto;width: 98%;
+	color: white;text-align: center;
+	display: flex;padding: 25px 0;
+	justify-content: center;align-self: flex-end;
+	height: 15px; margin-top: 5px;}
+
+.barra{display: inline-flex;justify-content:flex-end;
+	flex-direction: row;list-style:none;}
+
+.face, .insta{padding: 10px 5px;}
+
+.gmail{padding: 9.5px 5px;}
+
+footer>p{padding: 10px 5px;}

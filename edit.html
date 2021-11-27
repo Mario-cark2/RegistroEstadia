@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>editar</title>
+		<link rel="shortcut icon" type="img" href="img/Utmemorias10.png">
+</head>
+<link rel="stylesheet" type="text/css" href="css/edit.css">
+<link rel="stylesheet" type="text/css" href="css/menu.css">
+<body>
+	
+			<nav class="menu">
+			<ul>
+				<li><a href="Interfaz.html"><img src="img/utmemorias.png" width="50" height="50"></a></li>
+			<li><a href="admin.html"><img src="img/user.png" width="35px" height="35px">Administrador</a>
+				<ul class="submenu">
+				<li><a href="agregar.html">Agregar</a></li>
+				<li><a href="edit.html">Editar</a></li>				
+				</ul>
+				<li><a><form action="filtro.php" method="post">
+		<input type="search" name="titulo" placeholder="Buscar" required="required"></form></a></li>
+			<li><a class="out" href="cerrar.php">Cerrar sesion</a>
+		</li>	
+	</nav>
+
+
+<section class="main">
+		<div class="title">
+		<h1>Usted esta en la seccion de administrador</h1>
+		<br>
+		<p>Usted puede modificar un usuario o puede modificar una memoria de estadia.</p>
+		<div class="opc">
+		<div class="usrnn">
+			<h3>Modificar usuario</h3>
+			<img src="img/usern.png" width="200" height="200">
+			<div class="botones">
+			<form method="POST" action="verificacion_modificar.php">
+			<a href="modificar_usuario.html"></a><input type="submit" value="Modificar usuario" name="usuario">
+			</form></div>
+		</div>
+
+		<div class="docnn">
+			<h3>Modificar documento</h3>
+			<img src="img/docn.png" width="200" height="200">
+			<div class="botones">
+			<form method="POST" action="verificacion_agregar.php">
+			<a href="registro.html"></a><input type="submit" value="Nueva memoria" name="memoria">
+		</form></div>
+		</div>
+		</div>
+	</section>
+
+	<footer>
+		<p>UT memorias 2019</p>
+		<br>
+		<br>
+		<ul class="barra">
+			<li class="face"><a href="#"><img src="img/facebook.png" width="20" height="20" border="0" alt="https://www.freepik.com/"></a></li>
+			<li class="insta"><a href="#"><img src="img/instagram.png" width="20" height="20" border="0" alt="https://www.freepik.com/"></a></li>
+			<li class="gmail"><a href="#"><img src="img/gmail.png" width="25" height="25" border="0" alt="https://www.freepik.com/"></a></li>
+		</ul>
+	</footer>
+</body>
+</html>

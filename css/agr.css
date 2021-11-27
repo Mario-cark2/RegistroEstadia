@@ -1,0 +1,103 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{background: silver;
+font-family: arial;}
+
+
+header{background: url(../img/banner.png) no-repeat top;
+	height: 200px;margin: 0 auto;
+	margin-top: 5px;margin-bottom: 5px;
+	display: flex;width: 98%;}
+
+
+#titulo {
+	background: rgba( 88, 157, 204, .8);
+	font-family: arial;
+	font-size: 20px;
+	text-align: center;
+}
+
+form{width: 300px;
+	margin: 0 auto;}
+
+
+aside{
+	float: left;
+    width: 25%;
+	margin: 30px auto;
+	margin-left: 1%;
+	background-color:rgba(69, 69, 214, .3);
+	position: relative;
+	color: white;
+	list-style: none;;
+}
+
+.main{
+width: 70%; overflow: hidden;
+	margin: 25px auto ;margin-bottom: .5%;
+	box-sizing: border-box; 
+	background:#589DCC;color: white;}
+
+.usrnn{float: left;
+margin-left: 100px}
+
+.docnn{float: right;
+margin-right:100px}
+
+
+.title{
+	text-align: center;
+	margin-top: 8px;
+}
+
+footer{
+ background-color: black;
+ margin: 0 auto;
+  width: 98%;
+  color: white;
+  text-align: center;
+  display: flex;
+  padding: 25px 0;
+    justify-content: center;
+	align-self: flex-end;}
+
+.barra{
+	display: inline-flex;
+	justify-content: flex-end;
+	flex-direction: row;
+	list-style:none;
+}
+
+.face, .insta{
+	padding: 10px 5px;
+}
+
+.gmail{
+	padding: 9.5px 5px;
+}
+
+footer>p{
+	padding: 10px 5px;
+}
+
+.botones input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #213B4D;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 20px;
+  width: 150px;
+  margin:15px 30px;
+}
+
+.botones input[type="submit"]:hover {
+  cursor: pointer;
+  background: #162733;
+  color: #fff;
+}
+

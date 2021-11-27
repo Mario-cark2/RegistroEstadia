@@ -1,0 +1,40 @@
+.gast:hover {
+  background: #4D8AB3;
+}
+
+
+.ddn:hover {
+  background: #4D8AB3;
+}
+
+
+.mant:hover {
+  background: #4D8AB3;
+}
+
+
+.tics:hover {
+  background: #4D8AB3;
+}
+
+.rell:hover{background: #4D8AB3;}
+
+.out:hover{background: red;}
+
+
+input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #213B4D;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 20px;
+  width: 150px;
+  margin:5px 20px;}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  background: #162733;
+  color: #fff;
+}

@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin</title>
+		<link rel="shortcut icon" type="img" href="img/Utmemorias10.png">
+</head>
+<link rel="stylesheet" type="text/css" href="css/admin.css">
+<link rel="stylesheet" type="text/css" href="css/menu.css">
+<body>
+
+			<nav class="menu">
+			<ul>
+				<li><a href="Interfaz.html"><img src="img/utmemorias.png" width="50" height="50"></a></li>
+			<li><a href="admin.html"><img src="img/user.png" width="35px" height="35px">Administrador</a>
+				<ul class="submenu">
+				<li><a href="agregar.html">Agregar</a></li>
+				<li><a href="edit.html">Editar</a></li>				
+				</ul>
+				<li><a><form action="filtro.php" method="post">
+		<input type="search" name="titulo" placeholder="Buscar" required="required"></form></a></li>
+			<li><a class="out" href="cerrar.php">Cerrar sesion</a>
+		</li>	
+	</nav>
+
+	<header>
+	</header>
+
+
+<section class="main">
+		<div class="title">
+		<h1>Usted esta en la seccion de administrador</h1>
+		</div>
+		<br>
+		<div class="ut" align="center">
+		<img src="img/logo.png">
+		
+		</div>
+
+		<div class="botones" align="center">
+			<form method="POST" action="verificar_boton.php">
+			<input type="submit" value="Agregar" name="agregar">
+			<input type="submit" value="Editar" name="editar">
+			</form>
+            </div>
+
+		<br>
+		<p>Bienvenido a UT memorias, nosotros nos dedicamos a compartirle al personal de la universidad tecnologica de Acapulco las memorias de estadia de los alumnos egresados de la escuela, esto es con el fin de poder ayudar a los alumnos y aparte tener un control de estos documentos.</p>
+
+</section>
+
+	<footer>
+		<p>UT memorias 2019</p>
+		<br>
+		<br>
+		<ul class="barra">
+			<li class="face"><a href="#"><img src="img/facebook.png" width="20" height="20" border="0" alt="https://www.freepik.com/"></a></li>
+			<li class="insta"><a href="#"><img src="img/instagram.png" width="20" height="20" border="0" alt="https://www.freepik.com/"></a></li>
+			<li class="gmail"><a href="#"><img src="img/gmail.png" width="25" height="25" border="0" alt="https://www.freepik.com/"></a></li>
+		</ul>
+	</footer>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>modificar usuario</title>
+	</head>
+<body>
+	<?php
+            if(isset($errorLogin)){
+                echo $errorLogin;
+            }
+       ?>
+		<script type="text/javascript">
+  alert("Favor de introduccir el nombre del usuario a modificar");
+</script>
+	
+		<h1>Modificacion</h1>
+		<form action="buscar.php" method="POST">
+			<label for="Usuario">Usuario</label><br>
+			<input type="text" NAME="nombre" placeholder="usuario a modificar"> <br>
+			<br>
+			
+			<input type="submit" value="modificar" >
+			<A HREF="edit.html">regresar</A>
+		
+
+			<br>
+		</form>
+	</div>
+	</body>
+</html>
+
+	

@@ -1,0 +1,81 @@
+
+*{margin:0;padding:0;}
+
+body{background: silver;
+font-family: arial;
+font-size: 15px;}
+
+
+header{background: url(../img/banner.png) no-repeat top;
+	height: 200px;margin: 0 auto;
+	margin-top: 5px;margin-bottom: 5px;
+	display: flex;width: 98%;}
+
+.wlcm{ background:grey;}
+
+.TSU{{background: rgba(107, 182, 1, .3);
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: background 0.4s;
+  color: white;}
+
+.TSU:hover {background: #4D8AB3;}
+.lic:hover {background: #4D8AB3;}
+
+.lic{background: rgba(186, 150, 1, .5);
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: background 0.4s;
+   color: white;}
+
+input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #213B4D;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 20px;
+  width: 150px;
+  margin:5px 20px;}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  background: #162733;
+  color: #fff;
+}
+
+
+aside li{padding: 8px 0;
+list-style: none; text-decoration: none;}
+
+form{width: 300px;
+  margin: 0 auto;}
+
+.act{background: orange;
+color: black;}
+
+.rell{background: orange;}
+
+footer{
+  background-color: black;
+  margin: 0 auto;width: 98%;
+  color: white;text-align: center;
+  display: flex;padding: 25px 0;
+  justify-content: center;align-self: flex-end;
+  height: 15px; margin-top: 5px;}
+
+.barra{display: inline-flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  list-style:none;}
+
+.face, .insta{padding: 10px 5px;}
+
+.gmail{padding: 9.5px 5px;}
+
+footer>p{padding: 10px 5px;}
